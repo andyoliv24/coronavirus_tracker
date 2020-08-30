@@ -1,0 +1,47 @@
+.Top {
+  display: flex;
+}
+
+.banner {
+  display: flex;
+}
+
+.ant-tabs-nav-container {
+  width: 15vw;
+  height: 100vh;
+}
+
+.ant-tabs-content {
+  height: 1200px !important;
+}
+
+.ant-tabs .ant-tabs-left-bar .ant-tabs-tab {
+  text-align: left !important;
+}
+
+.custom-card {
+  margin-right: '20px';
+  
+}
+
+.ant-card-bordered {
+  margin-right: 10px !important;
+}
+.ant-tabs .ant-tabs-left-content {
+  padding: 20px !important;
+}
+
+.ant-collapse {
+  margin: 10px !important;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+
+.ant-collapse-header {
+  font-weight: bold;
+  font-size: 17px;
+}

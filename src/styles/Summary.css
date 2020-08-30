@@ -1,0 +1,27 @@
+.ant-carousel .slick-slide  {
+  background: #FAFAFA;
+  color: black;
+  border: solid #D9D9D9;
+  border-width: thin;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.slick-dots li {
+  bottom: -50px;
+  border: solid black;
+  color: #D9D9D9;
+  border-width: thin;
+  border-radius: 50px;
+  background-color: black;
+}

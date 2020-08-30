@@ -1,0 +1,16 @@
+.footer_container{
+  display: table-column;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  color: white;
+  align-self: flex-end;
+}
+
+.footer_container-box1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 5px solid red;
+}

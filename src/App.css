@@ -1,5 +1,9 @@
 .App {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #282c34; */
 }
 
 .App-logo {
@@ -35,4 +39,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App_content1 {
+  display: flex;
+}
+
+.App_content2 {
+  width: 100%;
+  color: black;
+}
+
+.App_content3 {
+  display: flex;
+  width: 100%;
+}
+
+.App-holder1 {
+  display: flex;
 }

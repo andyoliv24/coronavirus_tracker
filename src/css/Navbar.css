@@ -1,0 +1,61 @@
+.navbar-background{
+  display: flex;
+  background-size: cover;
+}
+
+.covid-pic{
+  display: flex;
+  height: 80px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  text-shadow: -2px -1px red;
+}
+
+.nav-icon-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+  justify-content: space-around;
+}
+
+.titles{
+  color: black;
+  text-align: center;
+}
+
+.home-icon{
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: red;
+}
+
+.charts-icon{
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: red;
+}
+
+.news-icon{
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: red;
+}
+
+.nav-link-globe{
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: red;
+}
