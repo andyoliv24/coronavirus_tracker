@@ -45,3 +45,8 @@
   font-weight: bold;
   font-size: 17px;
 }
+
+.statistics{
+  display: flex;
+  flex-direction: row;
+}

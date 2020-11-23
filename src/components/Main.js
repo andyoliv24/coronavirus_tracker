@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import USTable from "./USTable";
-import Summary from "./Summary";
 import Chart from "./Chart";
 import axios from "axios";
-import "../styles/Main.css";
-import { Tabs, Radio, Card, Row, Collapse } from "antd";
+import '../css/Main.css';
+import { Tabs, Collapse } from "antd";
 import "antd/dist/antd.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
@@ -77,19 +75,7 @@ class Main extends Component {
     countries = countries.map((elem, index) => {
       return (
         <TabPane tab={elem.Country} key={index}>
-          <h4 class="title ml-2">{elem.Country}</h4>
-
-          <div class="row">
-            <div class="col-xs-12 col-md-4 pr-md-0">
-              <Collapse onChange={this.callback} defaultActiveKey={["1"]}>
-                <Panel header="Statistics" key="1">
-                  <USTable data={elem} />
-                </Panel>
-              </Collapse>
-              <div class="d-none d-md-block">
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-8 pl-md-0">
+          <div class="col-xs-12 col-md-8 pl-md-0">
               <Collapse onChange={this.callback} defaultActiveKey={["2"]}>
                 <Panel header="Charts" key="2">
                   <div class="">
@@ -98,6 +84,17 @@ class Main extends Component {
                 </Panel>
               </Collapse>
             </div>
+          <h4 class="title ml-2">{elem.Country}</h4>
+
+          <div className="statistics-div">
+            <div >
+              <Collapse onChange={this.callback} defaultActiveKey={["1"]}>
+                <Panel header="Statistics" key="1">
+                  <USTable data={elem} />
+                </Panel>
+              </Collapse>
+            </div>
+
           </div>
         </TabPane>
       );
